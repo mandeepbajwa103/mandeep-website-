@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #5dbae6;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.search-bar input {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    width: 600px; /* Adjust width as needed */
+}
+
+.login-register {
+    display: flex;
+
+}
+
+.login-register a {
+    text-decoration: none;
+    margin-left: 1290px;
+    margin-top: -31px;
+    color: black;
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+nav {
+    margin-top: 10px;
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+main {
+    padding: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.office-number {
+    border: 1px solid #010000;
+    padding: 50px;
+    text-align: center;
+    width: 200px;
+    margin: 30px 0;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.social-media-item {
+    border: 1px solid #040404;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    margin-left: 210px;
+}
+
+.social-media-item i {
+    margin-right: 10px;
+    font-size: 24px; /* Set the size of the social media icons here */
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #5dbae6;
+}
+
+.footer-logo img {
+    height: 50px;
+}
+
+.footer-links-top, .footer-links-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.footer-address {
+    text-align: center;
+}
+
+.social-media a img {
+    height: 30px;
+    margin: 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
